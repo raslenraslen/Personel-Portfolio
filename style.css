@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+.bg {
+  background-color: #0e0f19;
+  padding: 20px 0px;
+}
+
+.link {
+  letter-spacing: 1px;
+  color: white !important;
+  margin-right: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px white;
+}
+.link:hover {
+  color: #f7b740 !important;
+}
+
+#started {
+  padding: 12px 24px;
+  background-color: #f7b740;
+  font-size: 20px;
+  transition: 0.7s ease;
+}
+#started:hover {
+  transform: scale(1.1);
+  background-color: #ed9121;
+}
+
+.cover {
+  background-color: #0e0f19;
+  padding: 90px 20px;
+}
+.cover-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.subtitle {
+  font-weight: 600;
+  font-family: "Rajdhani", sans-serif;
+}
+span {
+  color: #bd8113;
+}
+.title {
+  font-size: 65px;
+  font-weight: 700;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.desciption {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Rajdhani", sans-serif;
+}
+.link-cover {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Rajdhani", sans-serif;
+  margin-left: 40px;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+
+.about {
+  background-color: #1a1f1a;
+  padding: 90px 0px;
+}
+.about-subtitle {
+  font-size: 28px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+}
+
+.title-subtitle {
+  font-size: 65px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  margin-top: 28px;
+}
+
+.about-desc {
+  font-size: 16px;
+  font-family: "Rajdhani", sans-serif;
+
+  margin-top: 25px;
+  color: #abc4cc;
+}
+
+.skills {
+  background-color: #102a3c;
+  padding: 50px 0px;
+}
+
+.section-subtitle {
+  color: white;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-top: 32px;
+  font-family: "Rajdhani", sans-serif;
+}
+.progess-text {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 24px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.7em;
+  padding-right: 20px;
+}
+
+.services {
+  background-color: #1a1f22;
+  padding: 80px 0px;
+}
+
+.item-1 {
+  border-right: 1px solid #f7b940;
+  border-bottom: 1px solid #f7b740;
+}
+.item-2 {    
+ 
+  border-bottom: 1px solid #f7b740;
+}
+
+.service-item {   
+
+  transition: 0.4s;
+}
+
+.service-item:hover {   
+  background-color: #bd8113;
+}
+
+
+.counter {  
+  background-color: #102a3c;
+}
