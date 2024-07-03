@@ -115,8 +115,12 @@ span {
   color: #fff;
   font-size: 1.7em;
   padding-right: 20px;
+  transition: 0.5s ease;
 }
 
+.social-icons:hover {
+  color: #bd8113;
+}
 .services {
   background-color: #1a1f22;
   padding: 80px 0px;
@@ -126,21 +130,57 @@ span {
   border-right: 1px solid #f7b940;
   border-bottom: 1px solid #f7b740;
 }
-.item-2 {    
- 
+.item-2 {
   border-bottom: 1px solid #f7b740;
 }
 
-.service-item {   
-
+.service-item {
   transition: 0.4s;
 }
 
-.service-item:hover {   
+.service-item:hover {
   background-color: #bd8113;
 }
 
-
-.counter {  
+.counter {
   background-color: #102a3c;
+}
+
+.counter-number {
+  font-size: 50px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
+.counter-text {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.social-icons :hover {
+  color: #ed9121;
+}
+
+.contact {
+  background-color: #000039;
+  padding: 80px 0px;
+}
+
+.contact-subtitle {
+  font-size: 35px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+}
+
+.contact-title {
+  font-size: 40px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #0e0f19;
+  padding: 40px 0px;
 }
